@@ -207,3 +207,10 @@ blockquote cite{display:block;margin-top:7px;font-size:12.5px;color:var(--ink-2)
   main table{display:block;overflow-x:auto;white-space:nowrap}
   main table th,main table td{white-space:normal;min-width:7em}
 }
+
+/* ── スキップリンク（★AIラボ・宣伝と同じ。キーボードで本文へ飛べる）──
+   ふだんは画面の外。Tabでフォーカスが来た時だけ出る。 */
+.skip{position:absolute;left:-9999px;top:0;z-index:100;
+      background:var(--accent);color:#fff;padding:10px 16px;
+      border-radius:0 0 8px 0;font-size:14px;text-decoration:none}
+.skip:focus{left:0}
