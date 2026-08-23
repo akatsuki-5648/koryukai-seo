@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://koryukai.akatsuki-system.online/sitemap.xml

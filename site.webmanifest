@@ -1,0 +1,23 @@
+{
+  "name": "異業種交流会ガイド",
+  "short_name": "異業種交流会",
+  "description": "異業種交流会とは何か。費用と勘定科目、服装や名刺、怪しいと言われる理由まで参加する側から解説",
+  "lang": "ja",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1b4a5c",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
