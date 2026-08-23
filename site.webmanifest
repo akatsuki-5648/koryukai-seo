@@ -3,6 +3,7 @@
   "short_name": "異業種交流会",
   "description": "異業種交流会とは何か。費用と勘定科目、服装や名刺、怪しいと言われる理由まで参加する側から解説",
   "lang": "ja",
+  "id": "/",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
@@ -18,6 +19,12 @@
       "src": "/android-chrome-512x512.png",
       "sizes": "512x512",
       "type": "image/png"
+    },
+    {
+      "src": "/maskable-icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
     }
   ]
 }
